@@ -1,8 +1,8 @@
 const { Router } = require('express');
-const { notebookScrapping } = require('./controllers/scrapController');
+const { notebookScraping } = require('./controllers/scrapController');
 
 const routes = Router();
 
-routes.get('/notebook-scrap', notebookScrapping);
+routes.get('/notebook-scrap', notebookScraping);
 
 module.exports = routes;
